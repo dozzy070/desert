@@ -1,0 +1,210 @@
+body {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    position: relative;
+    top: 70px;
+    margin-left: 100px;
+
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin: 5%;
+
+}
+
+.box1 {
+    /* border: thin solid red; */
+    width: 100%;
+}
+
+.box2 {
+    /* border: thin solid blue; */
+    background-color: #faf6f6d7;
+    border-radius: 8px;
+    height: 550px;
+    position: relative;
+    bottom: 60px;
+
+
+}
+
+.cards {
+    display: flex;
+
+
+}
+
+.item {
+    margin: 10px;
+}
+
+.cards img {
+    width: 280px;
+    height: 250px;
+}
+
+.cards button {
+    display: flex;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 50px;
+
+}
+
+.cards button img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    bottom: 6px;
+    position: relative;
+    right: 10px;
+
+}
+
+.cards button a {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    position: relative;
+    top: 6px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.cards h4,
+p,
+h3 {
+    margin-top: -8px;
+}
+
+.dollar h4 {
+    color: red;
+}
+
+.two {
+    border: thin solid red;
+    height: 250px;
+}
+
+.confirm {
+    margin: 5%;
+}
+
+.confirm h2 {
+    color: red;
+}
+
+.classic {
+    border: thin solid #f0f0ea;
+    border-top: 20px;
+
+}
+
+
+.order {
+    display: flex;
+    gap: 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total h3 {
+    margin-top: 25px;
+}
+
+.carbon {
+    border: thin solid #f0f0ea;
+    display: flex;
+    gap: 12px;
+    border-radius: 10px;
+
+}
+
+.carbon img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+
+}
+
+#footer {
+    border: thin solid red;
+    background-color: red;
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    position: relative;
+    top: 25px;
+    margin-right: 30px;
+
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    header h2 {
+        position: relative;
+        bottom: 70px;
+        position: relative;
+        right: 80px;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+        position: absolute;
+        top: 3720px;
+    }
+
+    .cards {
+        flex-direction: column;
+
+    }
+
+    .cards button {
+        position: relative;
+        left: 50px;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .two {
+        border: thin solid red;
+        height: 380px;
+    }
+
+}
